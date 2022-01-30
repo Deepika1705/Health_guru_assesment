@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family: comic sans MS;
+    font-size: bolder;
+    text-align: center;
+}
+p{
+    font-family: "arial";
+    font-size: 75% larger;
+    font-weight: bolder;
+    line-height: 22px;
+    padding: 10px;
+}
+.content{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.chicken{
+    flex-basis:31%;
+    background: grey;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-rectangle;
+    border:5px outset black;
+    column-gap: gap 66px;
+    margin-right: 1rem;
+}
+
+.chicken h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color:#CB888B ;
+    width:100%;
+}
+.beef{
+    flex-basis:31%;
+    background: grey;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-rectangle;
+    border:5px outset black;
+    column-gap: gap 66px;
+    margin-right: 1rem;
+}
+.beef h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color:#BD2808 ;
+    width:100%;
+    color:white;
+}
+.sushi{
+    flex-basis:31%;
+    background: grey;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-rectangle;
+    border:5px outset black;
+    column-gap: gap 66px;
+    margin-right: 1rem;
+}
+.sushi h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #E9DC5B ;
+    width:100%;
+}
+@media screen and (max-width:959px) {
+    .row{
+        width:100%;
+    }
+    .chicken{
+        width:80%;
+    }
+    .beef{
+        width: 80%;
+    }
+    .sushi{
+        width: 100%;
+    }
+}
+
+
